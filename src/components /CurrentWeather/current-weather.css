@@ -1,0 +1,109 @@
+.main-container {
+  height: 100%;
+  min-width: 30vw;
+  background-color: #1E213A;
+}
+
+.input {
+  width: 161px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #6e707a;
+  border: none;
+  padding-left: 13px;
+}
+.location-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 42px;
+
+  margin-bottom: 80px;
+}
+.location-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #6e707a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+}
+.location-icon-btn {
+  background-color: #6e707a;
+  border: none;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  margin-bottom: 80px;
+}
+.img {
+  width: 300px;
+  height: 250px;
+  border: none;
+}
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 48px;
+  font-weight: 500px;
+  color: #e7e7eb;
+
+  margin-bottom: 60px;
+}
+
+.desc {
+  font-weight: 600;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a09fb1;
+  margin-bottom: 40px;
+}
+.user-status {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+.dot{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.current-day {
+  font-size: 18px;
+  font-weight: 500;
+  color: #88869d;
+}
+.current-date {
+  font-size: 18px;
+  font-weight: 500;
+  color: #88869d;
+}
+.user-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #88869d;
+}
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  color: #88869d;
+}
